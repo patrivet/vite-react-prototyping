@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dockyard extras
+coverage
+.nyc_output
+*.orig

@@ -1,5 +1,6 @@
 import Main from './pages/main'
 import { Routes, Route } from 'react-router-dom'
+import './index.css'
 
 import { Container, Content } from './App.style'
 

@@ -1,15 +1,14 @@
-import { Container } from './App.style'
-import { Typography } from '@holidayextras/component-library'
-
+import Main from './pages/main'
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Container>
-        hello world
-      </Container>
-      <Typography element='h1' size='sml'>
-        hello i am a component from that component library.
-      </Typography>
+        <Routes>
+          <Route path='/' element={<Main />} />
+          {/* add other paths as needed for hackathon etc...
+          <Route path='/newDemoPage' element={<NewDemoPage />} /> */}
+        </Routes>
+      {/* </BrowserRouter> */}
     </>
   )
 }
